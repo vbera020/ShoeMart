@@ -1,0 +1,186 @@
+ .../CopilotIndices/17.14.1561.44479/CodeChunks.db  | Bin [31m0[m -> [32m73728[m bytes
+ .../17.14.1561.44479/SemanticSymbols.db            | Bin [31m0[m -> [32m61440[m bytes
+ .../06dbfbe4-03c8-4648-8a67-bd4e4fdde12c.vsidx     | Bin [31m0[m -> [32m38499[m bytes
+ .../5a8dd457-f849-4927-a0a7-18d87a76dd1c.vsidx     | Bin [31m0[m -> [32m17294[m bytes
+ .../62d1ab0e-490c-4250-b4dc-312c88356f1c.vsidx     | Bin [31m0[m -> [32m26002[m bytes
+ .../7ff1d0a9-fdf7-4a6d-b8fe-9b8f8bae2c37.vsidx     | Bin [31m0[m -> [32m18548[m bytes
+ .vs/ShoeMart/config/applicationhost.config         | 983 [32m+++++++++++++++++++++[m
+ .vs/ShoeMart/v17/.suo                              | Bin [31m0[m -> [32m46592[m bytes
+ .vs/ShoeMart/v17/DocumentLayout.backup.json        | 133 [32m+++[m
+ .vs/ShoeMart/v17/DocumentLayout.json               | 151 [32m++++[m
+ ShoeMart.sln                                       |  25 [32m+[m
+ ShoeMart/Default.aspx                              | 245 [32m+++++[m
+ ShoeMart/Default.aspx.cs                           |  17 [32m+[m
+ ShoeMart/Default.aspx.designer.cs                  |  53 [32m++[m
+ ShoeMart/Login.aspx                                |  95 [32m++[m
+ ShoeMart/Login.aspx.cs                             |  17 [32m+[m
+ ShoeMart/Login.aspx.designer.cs                    |  26 [32m+[m
+ ShoeMart/Properties/AssemblyInfo.cs                |  35 [32m+[m
+ ShoeMart/Register.aspx                             | 103 [32m+++[m
+ ShoeMart/Register.aspx.cs                          |  25 [32m+[m
+ ShoeMart/Register.aspx.designer.cs                 |  71 [32m++[m
+ ShoeMart/ShoeMart.csproj                           | 154 [32m++++[m
+ ShoeMart/ShoeMart.csproj.user                      |  37 [32m+[m
+ ShoeMart/Site.Master                               | 182 [32m++++[m
+ ShoeMart/Site.Master.cs                            |  17 [32m+[m
+ ShoeMart/Site.Master.designer.cs                   |  44 [32m+[m
+ ShoeMart/Web.Debug.config                          |  30 [32m+[m
+ ShoeMart/Web.Release.config                        |  31 [32m+[m
+ ShoeMart/Web.config                                |  17 [32m+[m
+ ...ft.CodeDom.Providers.DotNetCompilerPlatform.dll | Bin [31m0[m -> [32m40168[m bytes
+ ...ft.CodeDom.Providers.DotNetCompilerPlatform.xml |  67 [32m++[m
+ ShoeMart/bin/ShoeMart.dll                          | Bin [31m0[m -> [32m5632[m bytes
+ ShoeMart/bin/ShoeMart.dll.config                   |  17 [32m+[m
+ ShoeMart/bin/ShoeMart.pdb                          | Bin [31m0[m -> [32m22016[m bytes
+ .../roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll  | Bin [31m0[m -> [32m122288[m bytes
+ ShoeMart/bin/roslyn/Microsoft.CSharp.Core.targets  | 135 [32m+++[m
+ .../Microsoft.CodeAnalysis.CSharp.Scripting.dll    | Bin [31m0[m -> [32m28592[m bytes
+ .../bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll   | Bin [31m0[m -> [32m4896176[m bytes
+ .../roslyn/Microsoft.CodeAnalysis.Scripting.dll    | Bin [31m0[m -> [32m127920[m bytes
+ .../roslyn/Microsoft.CodeAnalysis.VisualBasic.dll  | Bin [31m0[m -> [32m5425584[m bytes
+ ShoeMart/bin/roslyn/Microsoft.CodeAnalysis.dll     | Bin [31m0[m -> [32m2721712[m bytes
+ .../roslyn/Microsoft.DiaSymReader.Native.amd64.dll | Bin [31m0[m -> [32m1495800[m bytes
+ .../roslyn/Microsoft.DiaSymReader.Native.x86.dll   | Bin [31m0[m -> [32m1188080[m bytes
+ ShoeMart/bin/roslyn/Microsoft.Managed.Core.targets | 155 [32m++++[m
+ .../bin/roslyn/Microsoft.VisualBasic.Core.targets  | 132 [32m+++[m
+ ShoeMart/bin/roslyn/Microsoft.Win32.Primitives.dll | Bin [31m0[m -> [32m22768[m bytes
+ ShoeMart/bin/roslyn/System.AppContext.dll          | Bin [31m0[m -> [32m20168[m bytes
+ .../bin/roslyn/System.Collections.Immutable.dll    | Bin [31m0[m -> [32m358536[m bytes
+ ShoeMart/bin/roslyn/System.Console.dll             | Bin [31m0[m -> [32m34496[m bytes
+ .../roslyn/System.Diagnostics.DiagnosticSource.dll | Bin [31m0[m -> [32m35760[m bytes
+ .../roslyn/System.Diagnostics.FileVersionInfo.dll  | Bin [31m0[m -> [32m23464[m bytes
+ .../bin/roslyn/System.Diagnostics.StackTrace.dll   | Bin [31m0[m -> [32m23288[m bytes
+ .../bin/roslyn/System.Globalization.Calendars.dll  | Bin [31m0[m -> [32m23296[m bytes
+ .../bin/roslyn/System.IO.Compression.ZipFile.dll   | Bin [31m0[m -> [32m24824[m bytes
+ ShoeMart/bin/roslyn/System.IO.Compression.dll      | Bin [31m0[m -> [32m111984[m bytes
+ .../bin/roslyn/System.IO.FileSystem.Primitives.dll | Bin [31m0[m -> [32m22784[m bytes
+ ShoeMart/bin/roslyn/System.IO.FileSystem.dll       | Bin [31m0[m -> [32m22736[m bytes
+ ShoeMart/bin/roslyn/System.Net.Http.dll            | Bin [31m0[m -> [32m265048[m bytes
+ ShoeMart/bin/roslyn/System.Net.Sockets.dll         | Bin [31m0[m -> [32m46280[m bytes
+ ShoeMart/bin/roslyn/System.Reflection.Metadata.dll | Bin [31m0[m -> [32m584848[m bytes
+ ....Runtime.InteropServices.RuntimeInformation.dll | Bin [31m0[m -> [32m33256[m bytes
+ .../System.Security.Cryptography.Algorithms.dll    | Bin [31m0[m -> [32m39872[m bytes
+ .../System.Security.Cryptography.Encoding.dll      | Bin [31m0[m -> [32m23480[m bytes
+ .../System.Security.Cryptography.Primitives.dll    | Bin [31m0[m -> [32m22816[m bytes
+ ...stem.Security.Cryptography.X509Certificates.dll | Bin [31m0[m -> [32m38872[m bytes
+ .../bin/roslyn/System.Text.Encoding.CodePages.dll  | Bin [31m0[m -> [32m766872[m bytes
+ .../roslyn/System.Threading.Tasks.Extensions.dll   | Bin [31m0[m -> [32m25864[m bytes
+ ShoeMart/bin/roslyn/System.ValueTuple.dll          | Bin [31m0[m -> [32m77672[m bytes
+ ShoeMart/bin/roslyn/System.Xml.ReaderWriter.dll    | Bin [31m0[m -> [32m23264[m bytes
+ ShoeMart/bin/roslyn/System.Xml.XPath.XDocument.dll | Bin [31m0[m -> [32m25320[m bytes
+ ShoeMart/bin/roslyn/System.Xml.XPath.dll           | Bin [31m0[m -> [32m22720[m bytes
+ ShoeMart/bin/roslyn/System.Xml.XmlDocument.dll     | Bin [31m0[m -> [32m23256[m bytes
+ ShoeMart/bin/roslyn/VBCSCompiler.exe               | Bin [31m0[m -> [32m87472[m bytes
+ ShoeMart/bin/roslyn/VBCSCompiler.exe.config        | 148 [32m++++[m
+ ShoeMart/bin/roslyn/csc.exe                        | Bin [31m0[m -> [32m49584[m bytes
+ ShoeMart/bin/roslyn/csc.exe.config                 | 143 [32m+++[m
+ ShoeMart/bin/roslyn/csc.rsp                        |  46 [32m+[m
+ ShoeMart/bin/roslyn/csi.exe                        | Bin [31m0[m -> [32m15272[m bytes
+ ShoeMart/bin/roslyn/csi.exe.config                 | 153 [32m++++[m
+ ShoeMart/bin/roslyn/csi.rsp                        |  14 [32m+[m
+ ShoeMart/bin/roslyn/vbc.exe                        | Bin [31m0[m -> [32m49584[m bytes
+ ShoeMart/bin/roslyn/vbc.exe.config                 | 143 [32m+++[m
+ ShoeMart/bin/roslyn/vbc.rsp                        |  55 [32m++[m
+ ...TFramework,Version=v4.7.2.AssemblyAttributes.cs |   4 [32m+[m
+ .../DesignTimeResolveAssemblyReferences.cache      | Bin [31m0[m -> [32m205[m bytes
+ .../DesignTimeResolveAssemblyReferencesInput.cache | Bin [31m0[m -> [32m3195[m bytes
+ .../Debug/ShoeMart.csproj.AssemblyReference.cache  | Bin [31m0[m -> [32m13492[m bytes
+ .../Debug/ShoeMart.csproj.CoreCompileInputs.cache  |   1 [32m+[m
+ .../obj/Debug/ShoeMart.csproj.FileListAbsolute.txt |  59 [32m++[m
+ ShoeMart/obj/Debug/ShoeMart.dll                    | Bin [31m0[m -> [32m5632[m bytes
+ ShoeMart/obj/Debug/ShoeMart.pdb                    | Bin [31m0[m -> [32m22016[m bytes
+ ShoeMart/packages.config                           |   4 [32m+[m
+ .../.signature.p7s                                 | Bin [31m0[m -> [32m22345[m bytes
+ ...om.Providers.DotNetCompilerPlatform.2.0.1.nupkg | Bin [31m0[m -> [32m13709859[m bytes
+ ...oviders.DotNetCompilerPlatform.Extensions.props |   5 [32m+[m
+ ....CodeDom.Providers.DotNetCompilerPlatform.props | 111 [32m+++[m
+ ...oviders.DotNetCompilerPlatform.Extensions.props |   5 [32m+[m
+ ....CodeDom.Providers.DotNetCompilerPlatform.props | 111 [32m+++[m
+ .../content/net45/app.config.install.xdt           |  66 [32m++[m
+ .../content/net45/app.config.uninstall.xdt         |  29 [32m+[m
+ .../content/net45/web.config.install.xdt           |  58 [32m++[m
+ .../content/net45/web.config.uninstall.xdt         |  23 [32m+[m
+ .../content/net46/app.config.install.xdt           |  66 [32m++[m
+ .../content/net46/app.config.uninstall.xdt         |  29 [32m+[m
+ .../content/net46/web.config.install.xdt           |  58 [32m++[m
+ .../content/net46/web.config.uninstall.xdt         |  23 [32m+[m
+ ...ft.CodeDom.Providers.DotNetCompilerPlatform.dll | Bin [31m0[m -> [32m40168[m bytes
+ ...ft.CodeDom.Providers.DotNetCompilerPlatform.xml |  67 [32m++[m
+ .../Microsoft.Build.Tasks.CodeAnalysis.dll         | Bin [31m0[m -> [32m105392[m bytes
+ .../tools/Roslyn45/Microsoft.CSharp.Core.targets   | 145 [32m+++[m
+ .../Microsoft.CodeAnalysis.CSharp.Scripting.dll    | Bin [31m0[m -> [32m28088[m bytes
+ .../Roslyn45/Microsoft.CodeAnalysis.CSharp.dll     | Bin [31m0[m -> [32m4211112[m bytes
+ .../Roslyn45/Microsoft.CodeAnalysis.Scripting.dll  | Bin [31m0[m -> [32m128432[m bytes
+ .../Microsoft.CodeAnalysis.VisualBasic.dll         | Bin [31m0[m -> [32m5061040[m bytes
+ .../tools/Roslyn45/Microsoft.CodeAnalysis.dll      | Bin [31m0[m -> [32m2049432[m bytes
+ .../Microsoft.DiaSymReader.Native.amd64.dll        | Bin [31m0[m -> [32m1264912[m bytes
+ .../Roslyn45/Microsoft.DiaSymReader.Native.x86.dll | Bin [31m0[m -> [32m967432[m bytes
+ .../Roslyn45/Microsoft.VisualBasic.Core.targets    | 142 [32m+++[m
+ .../tools/Roslyn45/System.AppContext.dll           | Bin [31m0[m -> [32m20168[m bytes
+ .../Roslyn45/System.Collections.Immutable.dll      | Bin [31m0[m -> [32m200440[m bytes
+ .../Roslyn45/System.Diagnostics.StackTrace.dll     | Bin [31m0[m -> [32m22776[m bytes
+ .../Roslyn45/System.IO.FileSystem.Primitives.dll   | Bin [31m0[m -> [32m20736[m bytes
+ .../tools/Roslyn45/System.IO.FileSystem.dll        | Bin [31m0[m -> [32m20696[m bytes
+ .../tools/Roslyn45/System.Reflection.Metadata.dll  | Bin [31m0[m -> [32m425864[m bytes
+ .../tools/Roslyn45/VBCSCompiler.exe                | Bin [31m0[m -> [32m85896[m bytes
+ .../tools/Roslyn45/VBCSCompiler.exe.config         |  36 [32m+[m
+ .../tools/Roslyn45/csc.exe                         | Bin [31m0[m -> [32m50032[m bytes
+ .../tools/Roslyn45/csc.exe.config                  |  31 [32m+[m
+ .../tools/Roslyn45/csc.rsp                         |  46 [32m+[m
+ .../tools/Roslyn45/csi.exe                         | Bin [31m0[m -> [32m13680[m bytes
+ .../tools/Roslyn45/csi.rsp                         |  13 [32m+[m
+ .../tools/Roslyn45/vbc.exe                         | Bin [31m0[m -> [32m50032[m bytes
+ .../tools/Roslyn45/vbc.exe.config                  |  31 [32m+[m
+ .../tools/Roslyn45/vbc.rsp                         |  55 [32m++[m
+ .../Microsoft.Build.Tasks.CodeAnalysis.dll         | Bin [31m0[m -> [32m122288[m bytes
+ .../RoslynLatest/Microsoft.CSharp.Core.targets     | 135 [32m+++[m
+ .../Microsoft.CodeAnalysis.CSharp.Scripting.dll    | Bin [31m0[m -> [32m28592[m bytes
+ .../RoslynLatest/Microsoft.CodeAnalysis.CSharp.dll | Bin [31m0[m -> [32m4896176[m bytes
+ .../Microsoft.CodeAnalysis.Scripting.dll           | Bin [31m0[m -> [32m127920[m bytes
+ .../Microsoft.CodeAnalysis.VisualBasic.dll         | Bin [31m0[m -> [32m5425584[m bytes
+ .../tools/RoslynLatest/Microsoft.CodeAnalysis.dll  | Bin [31m0[m -> [32m2721712[m bytes
+ .../Microsoft.DiaSymReader.Native.amd64.dll        | Bin [31m0[m -> [32m1495800[m bytes
+ .../Microsoft.DiaSymReader.Native.x86.dll          | Bin [31m0[m -> [32m1188080[m bytes
+ .../RoslynLatest/Microsoft.Managed.Core.targets    | 155 [32m++++[m
+ .../Microsoft.VisualBasic.Core.targets             | 132 [32m+++[m
+ .../RoslynLatest/Microsoft.Win32.Primitives.dll    | Bin [31m0[m -> [32m22768[m bytes
+ .../tools/RoslynLatest/System.AppContext.dll       | Bin [31m0[m -> [32m20168[m bytes
+ .../RoslynLatest/System.Collections.Immutable.dll  | Bin [31m0[m -> [32m358536[m bytes
+ .../tools/RoslynLatest/System.Console.dll          | Bin [31m0[m -> [32m34496[m bytes
+ .../System.Diagnostics.DiagnosticSource.dll        | Bin [31m0[m -> [32m35760[m bytes
+ .../System.Diagnostics.FileVersionInfo.dll         | Bin [31m0[m -> [32m23464[m bytes
+ .../RoslynLatest/System.Diagnostics.StackTrace.dll | Bin [31m0[m -> [32m23288[m bytes
+ .../System.Globalization.Calendars.dll             | Bin [31m0[m -> [32m23296[m bytes
+ .../RoslynLatest/System.IO.Compression.ZipFile.dll | Bin [31m0[m -> [32m24824[m bytes
+ .../tools/RoslynLatest/System.IO.Compression.dll   | Bin [31m0[m -> [32m111984[m bytes
+ .../System.IO.FileSystem.Primitives.dll            | Bin [31m0[m -> [32m22784[m bytes
+ .../tools/RoslynLatest/System.IO.FileSystem.dll    | Bin [31m0[m -> [32m22736[m bytes
+ .../tools/RoslynLatest/System.Net.Http.dll         | Bin [31m0[m -> [32m265048[m bytes
+ .../tools/RoslynLatest/System.Net.Sockets.dll      | Bin [31m0[m -> [32m46280[m bytes
+ .../RoslynLatest/System.Reflection.Metadata.dll    | Bin [31m0[m -> [32m584848[m bytes
+ ....Runtime.InteropServices.RuntimeInformation.dll | Bin [31m0[m -> [32m33256[m bytes
+ .../System.Security.Cryptography.Algorithms.dll    | Bin [31m0[m -> [32m39872[m bytes
+ .../System.Security.Cryptography.Encoding.dll      | Bin [31m0[m -> [32m23480[m bytes
+ .../System.Security.Cryptography.Primitives.dll    | Bin [31m0[m -> [32m22816[m bytes
+ ...stem.Security.Cryptography.X509Certificates.dll | Bin [31m0[m -> [32m38872[m bytes
+ .../System.Text.Encoding.CodePages.dll             | Bin [31m0[m -> [32m766872[m bytes
+ .../System.Threading.Tasks.Extensions.dll          | Bin [31m0[m -> [32m25864[m bytes
+ .../tools/RoslynLatest/System.ValueTuple.dll       | Bin [31m0[m -> [32m77672[m bytes
+ .../tools/RoslynLatest/System.Xml.ReaderWriter.dll | Bin [31m0[m -> [32m23264[m bytes
+ .../RoslynLatest/System.Xml.XPath.XDocument.dll    | Bin [31m0[m -> [32m25320[m bytes
+ .../tools/RoslynLatest/System.Xml.XPath.dll        | Bin [31m0[m -> [32m22720[m bytes
+ .../tools/RoslynLatest/System.Xml.XmlDocument.dll  | Bin [31m0[m -> [32m23256[m bytes
+ .../tools/RoslynLatest/VBCSCompiler.exe            | Bin [31m0[m -> [32m87472[m bytes
+ .../tools/RoslynLatest/VBCSCompiler.exe.config     | 148 [32m++++[m
+ .../tools/RoslynLatest/csc.exe                     | Bin [31m0[m -> [32m49584[m bytes
+ .../tools/RoslynLatest/csc.exe.config              | 143 [32m+++[m
+ .../tools/RoslynLatest/csc.rsp                     |  46 [32m+[m
+ .../tools/RoslynLatest/csi.exe                     | Bin [31m0[m -> [32m15272[m bytes
+ .../tools/RoslynLatest/csi.exe.config              | 153 [32m++++[m
+ .../tools/RoslynLatest/csi.rsp                     |  14 [32m+[m
+ .../tools/RoslynLatest/vbc.exe                     | Bin [31m0[m -> [32m49584[m bytes
+ .../tools/RoslynLatest/vbc.exe.config              | 143 [32m+++[m
+ .../tools/RoslynLatest/vbc.rsp                     |  55 [32m++[m
+ .../tools/net45/install.ps1                        | 271 [32m++++++[m
+ .../tools/net45/uninstall.ps1                      | 215 [32m+++++[m
+ 185 files changed, 6527 insertions(+)
